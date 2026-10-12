@@ -92,9 +92,6 @@ Date InputHelper::getBirthDate(const std::string& prompt, int minAge, int maxAge
     }
 }
 
-bool InputHelper::isValidPhoneNumber(const std::string& phone, bool allowUnassigned) {
-    return Normalized::isValidPhoneNumber(phone, allowUnassigned);
-}
 
 std::string InputHelper::getPhoneNumber(const std::string& prompt, bool allowUnassigned) {
     while (true) {
